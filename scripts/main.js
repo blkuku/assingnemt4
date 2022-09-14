@@ -12,10 +12,10 @@ function spin(){
     
 
 
-    if (myOtherBox.object3D.rotation.x == 10*1.0000000000000007){x = -1
+    if (myOtherBox.object3D.rotation.x == 1.0000000000000007){x = -1
 	
     }
-    else if (myOtherBox.object3D.rotation.x == 10*0.009999999999999913){x =1}
+    else if (myOtherBox.object3D.rotation.x == 0.009999999999999913){x =1}
 
     myOtherBox.object3D.rotation.x += x*rotationSpeed;
 	console.log(myOtherBox.object3D.rotation.x);
